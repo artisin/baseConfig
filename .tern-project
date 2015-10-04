@@ -3,12 +3,12 @@
     "browser",
     "requirejs",
     "jquery",
-    "ecma5",
-    "ecma6",
-    "node"
+    "underscore",
+    "ecma6"
   ],
-  "exclude": ["wordpress/**", "node_modules/**"],
+  "exclude": ["wordpress/**", "node_modules/**", "*.js", "*/*.js", "*/*/*.js", "*/*/*/*.js"],
   "loadEagerly": [],
+  "dontLoad": [ ".meteor" ],
   "plugins": {
     "requirejs": {
       "baseURL": "./",
