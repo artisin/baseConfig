@@ -168,7 +168,7 @@ module.exports = {
       "no-underscore-dangle": 2,        // disallow dangling underscores in identifiers
       "one-var": 0,                     // allow just one var statement per function (off by default)
       "operator-assignment": 2,         // require assignment operator shorthand where possible or prohibit it entirely (off by default)
-      "operator-linebreak": 2,          // enforce operators to be placed before or after line breaks (off by default)
+      "operator-linebreak": 0,          // enforce operators to be placed before or after line breaks (off by default)
       "padded-blocks": 0,               // enforce padding within blocks (off by default)
       "quotes": [2, "single"],          // require quotes around object literal property names (off by default)
       "quote-props": [2, "as-needed"],  // specify whether double or single quotes should be used
