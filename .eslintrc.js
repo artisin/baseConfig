@@ -34,7 +34,7 @@ module.exports = {
       "no-empty": 2,                 // disallow empty statements
       "no-ex-assign": 2,             // disallow assigning to the exception in a catch block
       "no-extra-boolean-cast": 2,    // disallow double-negation boolean casts in a boolean context
-      "no-extra-parens": 2,          // disallow unnecessary parentheses (off by default)
+      "no-extra-parens": 0,          // disallow unnecessary parentheses (off by default)
       "no-extra-semi": 2,            // disallow unnecessary semicolons
       "no-func-assign": 2,           // disallow overwriting functions written as function declarations
       "no-inner-declarations": 2,    // disallow function or variable declarations in nested blocks
@@ -159,13 +159,13 @@ module.exports = {
       "no-inline-comments": 2,          // disallow comments inline after code (off by default)
       "no-lonely-if": 2,                // disallow if as the only statement in an else block (off by default)
       "no-mixed-spaces-and-tabs": 2,    // disallow mixed spaces and tabs for indentation
-      "no-multiple-empty-lines": 2,     // disallow multiple empty lines (off by default)
+      "no-multiple-empty-lines": 0,     // disallow multiple empty lines (off by default)
       "no-nested-ternary": 2,           // disallow nested ternary expressions (off by default)
       "no-new-object": 2,               // disallow use of the Object constructor
       "no-spaced-func": 2,              // disallow space between function identifier and application
       "no-ternary": 0,                  // disallow the use of ternary operators (off by default)
       "no-trailing-spaces": 2,          // disallow trailing whitespace at the end of lines
-      "no-underscore-dangle": 0,        // disallow dangling underscores in identifiers
+      "no-underscore-dangle": 2,        // disallow dangling underscores in identifiers
       "one-var": 0,                     // allow just one var statement per function (off by default)
       "operator-assignment": 2,         // require assignment operator shorthand where possible or prohibit it entirely (off by default)
       "operator-linebreak": 0,          // enforce operators to be placed before or after line breaks (off by default)
