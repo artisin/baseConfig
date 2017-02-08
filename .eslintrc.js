@@ -132,7 +132,7 @@ module.exports = {
 
       "array-bracket-spacing": 2,       // enforce spacing inside array brackets (off by default)
       "brace-style": [2, "1tbs", {      // enforce one true brace style (off by default)
-        "allowSingleLine": true 
+        "allowSingleLine": true
       }],
       "camelcase": 2,                   // require camel case names
       "comma-spacing": 2,               // enforce spacing before and after comma
@@ -147,7 +147,7 @@ module.exports = {
         "VariableDeclarator": { "var": 2, "let": 2, "const": 3}
       }],
       "key-spacing": 2,                 // enforces spacing between keys and values in object literal properties
-      "lines-around-comment": 2,        // enforces empty lines around comments (off by default)
+      "lines-around-comment": 0,        // enforces empty lines around comments (off by default)
       "linebreak-style": 2,             // disallow mixed 'LF' and 'CRLF' as linebreaks (off by default)
       "max-nested-callbacks": 2,        // specify the maximum depth callbacks can be nested (off by default)
       "new-cap": 1,                     // require a capital letter for constructors
